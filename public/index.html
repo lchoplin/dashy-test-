@@ -1,78 +1,52 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-   
+<html lang="en">
+<head>
+  <!-- Encoding and Viewport -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- Favicon, App Icon -->
+  <link rel="icon" type="image/png" sizes="64x64" href="<%= BASE_URL %>/web-icons/favicon-64x64.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="web-icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" href="/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="/loading-screen.css" />
+  <!-- Default Page Title -->
+  <title>Dashy</title>
+</head>
 
-    </body>
-    <link href="newcss.css" rel="stylesheet" type="text/css"/>
-    <head>
-        <title>kira yoshikage</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-        <div class="navbar">
-            <a href="#home"><p style="font-family: monospace; font-size: 150%">home</a>
-            <a href="#news"><p style="font-family: monospace; font-size: 150%">News</a>
-            <a href="https://jojowiki.com/"><p style="font-family: monospace; font-size: 150%">best manga</a>
-            <p style="font-family: monospace; font-size: 150%">
-                <br>"L'important n'est pas de gagner ou de perdre, mais de survivre ! <br>Je ne peux pas échapper à mon destin : je ne peux pas vivre sans tuer.<br> <font color="#0000cc">Et je compte vivre heureux !"</font>
-            <br>
-            <br>"kira Yoshikage. chapitre 98,tome 11"     
-        </div>
-        <div style='text-align: right'>
-            <h1 style="color:#cc00cc">
-                kira yoshikage
-            </h1>
-            <p style="font-family: monospace; font-size: 125%">
-                "watashi no na wa <font color="#0000cc">kira yoshikage"</font>
-            </p>
-            <img  src="images/kira.png" alt="Image NSI" width="20%">
-            <div style="text-align: inherit" >    
-                <h1>
-                    
-                </h1>
-                <br><table>
-                <tr>
-                    <td>
-        </div>
-            <div style="text-align: left">
-                <br><p style="font-size: 200%">
-                     <font color=#5d00b0">
-                        
-                     <U>première apparition</U></font>
-                    </p>
-                    <table style="border: 1px black solid; width: 25%; border-collapse: collapse">
-                        <tr>
-                            <td style="border: width: 100%"><p style=" font-size: 1%">lieux</td>
-                            <td style="border: width: 100%"><p style=" font-size: 1%">épisode 17"L'aventure de Rohan Kishibe"</td>
-                            <td style="border: width: 100%"><p style=" font-size: 1%">Animé</td>
-                            <td style="border: width: 100%"><p style=" font-size: 1%"></td>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px black solid; width: 10%"><p style=" font-size: 200%">Animé</td>
-                            <td style="border: 1px black solid" colspan="110"><p style=" font-size: 125%">épisode 17"L'aventure de Rohan Kishibe"</td>
-
-                        </tr>
-                        <tr>
-                            <td style="border: 1px black solid; width: 50%"><p style=" font-size: 200%">manga</td>
-                            <td style="border: 1px black solid" colspan="110"><p style=" font-size: 125%">chapitre  334"L'aventure de Rohan Kishibe ⑤"</td>
-                        </tr>
-                    </table>
-                    <br><br>
-                    <ul>
-                        <li><p style=" font-size: 200%"><font color=#5d00b0"><U>.Dans l'animé:</U></font>
-                        <br>Il aparrait la premiere fois a la fin de l'épisode 17 en manqueant de peu d'écraser koichi.
-                        <br>On le voit rentrer chez lui avec sa "femme".<br>A l'épisode suivant, il  nous est présenter son quotidien et a la suite des épisodes on le verra vivre ses aventure en essayant de fuire les héros en continuant de cacher son identité.<br>(Il est aussi annoncé dès le début mais nous ne savons pas de quel personne ça parle.) </li>
-                    </ul>
-                    <ul>
-                        <li><p style=" font-size: 200%"><font color=#5d00b0"><U>.Dans le manga</U></font>
-                        <br>Il aparrait la premiere fois dans le chapitre 334.La suite des évenement est la même que celle de l'animé.
-                    </ul>
-                    
-            </div>
-    </body>
+<body>
+  <!-- built files will be auto injected -->
+  <div id="app">
+    <!-- Loading screen, will be replaced when app loaded -->
+    <div class="loading-placeholder" id="loader">
+      <h1>Dashy</h1>
+      <p class="loading">Loading... </p>
+      <!-- Error message, only visible if app not mounted within 5 secs -->
+      <div class="catastrophic-error" id="err-wrap" style="display:none;">
+        <p class="err-l1">It looks like something's gone wrong...</p>
+        <p class="err-l2">
+          This is likely caused by the app source not being found at the current domain
+        </p>
+        <p class="err-l2">
+          If you need additional support, check the browser console then 
+          <a href="https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md">
+            raise a ticket
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Devices without JS enabled -->
+  <noscript>
+    <strong>Sorry, JavaScript needs to be enabled to run Dashy 😥</strong>
+  </noscript>
+  
+  <!-- Show error message if app not mounted within reasonable time frame -->
+  <script>
+    setTimeout(() => {
+      const loaderElem = document.getElementById('loader');
+      if (loaderElem) loaderElem.classList.add('still-not-loaded');
+    }, 7500);
+  </script>
+</body>
 </html>
