@@ -1,0 +1,17 @@
+appConfig:
+  title: "My Dashboard"
+  description: "A customizable personal dashboard"
+  theme: "default"
+
+sections:
+  - name: "Favorites"
+    items:
+      - title: "Google"
+        description: "Search the web"
+        icon: "https://www.google.com/favicon.ico"
+        url: "https://www.google.com"
+      - title: "GitHub"
+        description: "Code hosting"
+        icon: "https://github.githubassets.com/favicons/favicon.png"
+        url: "https://github.com"
+
