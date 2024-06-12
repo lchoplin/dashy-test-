@@ -11,15 +11,13 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
-  title: "Mon Tableau de Bord"
-  description: "Un tableau de bord personnalisable"
+  title: Mon Tableau de Bord
+  description: Un tableau de bord personnalisable
   auth:
-    active: true
-    type: "basic"
     users:
-      - username: "admin"
-        password: "password123"
-        type: "admin"
+      - username: admin
+        password: password123
+        type: admin
 
 
 # Main content - An array of sections, each containing an array of items
