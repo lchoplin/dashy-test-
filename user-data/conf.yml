@@ -12,6 +12,8 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   auth:
+    active: true
+    type: "basic"
     appConfig.auth.enableGuestAccess: true
     users:
     - username: alicia
