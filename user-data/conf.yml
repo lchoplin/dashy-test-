@@ -12,6 +12,7 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   auth:
+    appConfig.auth.enableGuestAccess: true
     users:
     - user: alicia
       password: VUE_APP_BOB
