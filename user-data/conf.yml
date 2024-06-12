@@ -1,8 +1,8 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: vergil
+  description: son of sparda!
   navLinks:
   - title: GitHub
     path: https://github.com/Lissy93/dashy
@@ -11,14 +11,7 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
-  auth:
-    appConfig.auth.enableGuestAccess: true
-    users:
-    - user: loki
-      password: VUE_APP_BOB
-      type: admin
-    - user: bob
-      password: VUE_APP_BOB
+
 
 # Main content - An array of sections, each containing an array of items
 sections:
