@@ -47,8 +47,4 @@ sections:
     description: See full list of configuration options
     url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
     icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
   
