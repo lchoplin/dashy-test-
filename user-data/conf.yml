@@ -14,7 +14,7 @@ appConfig:
   auth:
     appConfig.auth.enableGuestAccess: true
     users:
-    - user: alicia
+    - username: alicia
       password: VUE_APP_BOB
       type: admin
     - user: bob
