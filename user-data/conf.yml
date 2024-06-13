@@ -40,4 +40,14 @@ sections:
     provider: Dashy.to
     icon: far fa-book
     url: https://dashy.to/docs
+  pages:
+  - name: Home Lab
+    path: home-lab.yml
+    displayData:
+      showForUsers: [admin]
+  - name: Intranet
+    path: intranet.yml
+    displayData:
+      hideForGuests: true
+      hideForUsers: [alicia, bob]
 
