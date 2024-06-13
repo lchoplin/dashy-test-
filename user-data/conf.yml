@@ -16,7 +16,7 @@ appConfig:
     - user: alicia
       hash: 4D1E58C90B3B94BCAD9848ECCACD6D2A8C9FBC5CA913304BBA5CDEAB36FEEFA3
       type: admin
-    - user: bob
+    - user: vergil
 # Main content - An array of sections, each containing an array of items
 sections:
 - name: Getting Started
