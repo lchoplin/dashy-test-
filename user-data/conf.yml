@@ -11,7 +11,9 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
-
+  users:
+    - user: bob
+      password: VUE_APP_BOB
 
 # Main content - An array of sections, each containing an array of items
 sections:
