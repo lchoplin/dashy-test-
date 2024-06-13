@@ -40,7 +40,4 @@ sections:
     provider: Dashy.to
     icon: far fa-book
     url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
+
