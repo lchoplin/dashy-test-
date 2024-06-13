@@ -2,7 +2,7 @@
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: dante
-  description: son of sparda!
+  description: son sparda
   navLinks:
   - title: GitHub
     path: https://github.com/Lissy93/dashy
