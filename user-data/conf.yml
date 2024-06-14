@@ -3,11 +3,6 @@
 pageInfo:
   title: test
   description: test 
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
 
 # Optional app settings and configuration
 appConfig:
