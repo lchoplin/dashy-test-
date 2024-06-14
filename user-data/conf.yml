@@ -18,6 +18,8 @@ appConfig:
       type: admin
     - user: bob
       hash: F02528ABCB4E145144814B783CCBAD050CEB8037173AAD648F9EDFF9066D5BBD
+      language: fr
+
 
 # Main content - An array of sections, each containing an array of items
 sections:
