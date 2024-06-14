@@ -26,6 +26,11 @@ sections:
 - name: Getting Started
   icon: fas fa-rocket
   items:
+  - title: "Change Password"
+    description: "Update your password securely"
+    type: "iframe"  # Utiliser iframe pour inclure du HTML
+    url: "/change-password.html"  # Chemin vers votre fichier HTML personnalisé
+    icon: "fas fa-key"
   - title: Dashy Live
     description: Development a project management links for Dashy
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
