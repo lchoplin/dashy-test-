@@ -33,15 +33,6 @@ sections:
     target: newtab
     displayData :
       hideForUsers : [alicia]
-  - title: youtube
-    description: Source Code, Issues and Pull Requests
-    url: https://youtube.com
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
   pages:
   - name: Home Lab
     path: home-lab.yml
