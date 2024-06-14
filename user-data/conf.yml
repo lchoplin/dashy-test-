@@ -9,11 +9,12 @@ appConfig:
    language: fr
    auth:
     users:
-    - user: alicia
+    - user: lucas
       hash: 81B637D8FCD2C6DA6359E6963113A1170DE795E4B725B84D1E0B4CFD9EC58CE9
       type: admin
     - user: bob
       hash: F02528ABCB4E145144814B783CCBAD050CEB8037173AAD648F9EDFF9066D5BBD
+      type: user
 
 
 
