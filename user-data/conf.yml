@@ -34,7 +34,7 @@ sections:
     url: https://www.lesfourmissarthoises.fr/
     target: newtab
     displayData :
-      hideForUsers : [lucas]
+      showForUsers : [lucas]
   pages:
   - name: Home Lab
     path: home-lab.yml
