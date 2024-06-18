@@ -19,6 +19,19 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
+- name: connexion 
+  icon: fas fa-rocket
+  items:
+  - title: Change Password
+    description: Update your password securely
+    type: iframe  # Utiliser iframe pour inclure du HTML
+    url: /change-password.html  # Chemin vers votre fichier HTML personnalisé
+    icon: fas fa-key
+    target: newtab
+
+
+    
+sections:
 - name: logistique
   icon: fas fa-rocket
   items:
@@ -63,15 +76,6 @@ sections:
     url: https://www.helloasso.com/associations/les-fourmis-sarthoises/adhesions/campagne-d-adhesion-2024  
     target: newtab
 
-sections:
-- name: connexion 
-  icon: fas fa-rocket
-  items:
-  - title: Change Password
-    description: Update your password securely
-    type: iframe  # Utiliser iframe pour inclure du HTML
-    url: /change-password.html  # Chemin vers votre fichier HTML personnalisé
-    icon: fas fa-key
-    target: newtab
+
   
     
