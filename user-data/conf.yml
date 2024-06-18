@@ -59,7 +59,7 @@ sections:
     displayData :
       showForUsers : [lucas]
   - title: facebook   
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+    icon: si-facebook
     url: https://www.facebook.com/Les.Fourmis.Sarthoises
     target: newtab
     displayData :
