@@ -35,13 +35,13 @@ sections:
     target: newtab
     displayData :
       showForUsers : [lucas]
-    - title: les fourmis sarthoises cloud
+  - title: les fourmis sarthoises cloud
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
     url: https://serveur.lesfourmissarthoises.fr/cloud/index.php/login
     target: newtab
     displayData :
       showForUsers : [lucas]
-    - title: fourmis sarthoise
+  - title: fourmis sarthoise
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
     url: https://www.lesfourmissarthoises.fr/
     target: newtab
