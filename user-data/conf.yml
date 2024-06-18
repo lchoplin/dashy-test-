@@ -35,9 +35,9 @@ sections:
     target: newtab
     displayData :
       showForUsers : [lucas]
-    - title: fourmis sarthoise
+    - title: les fourmis sarthoises cloud
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://www.lesfourmissarthoises.fr/
+    url: https://serveur.lesfourmissarthoises.fr/cloud/index.php/login
     target: newtab
     displayData :
       showForUsers : [lucas]
@@ -47,16 +47,4 @@ sections:
     target: newtab
     displayData :
       showForUsers : [lucas]
-    - title: fourmis sarthoise
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://www.lesfourmissarthoises.fr/
-    target: newtab
-    displayData :
-      showForUsers : [lucas]
-    - title: fourmis sarthoise
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://www.lesfourmissarthoises.fr/
-    target: newtab
-    displayData :
-      showForUsers : [lucas]
- 
+    
