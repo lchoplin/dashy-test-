@@ -46,5 +46,5 @@ sections:
     url: https://discussion.lesfourmissarthoises.fr/home
     target: newtab
     displayData :
-      showForUsers : [admin]
+      showForUsers : [bob]
     
