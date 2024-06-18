@@ -41,7 +41,7 @@ sections:
     displayData :
       showForUsers : [lucas]
   - title: discussion 
-    icon: fa-solid fa-comment-dots
+    icon: fas fa-comment-dots
     url: https://discussion.lesfourmissarthoises.fr/home
     target: newtab
     displayData :
