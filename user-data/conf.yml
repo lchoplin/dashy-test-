@@ -28,10 +28,7 @@ sections:
     url: /change-password.html  # Chemin vers votre fichier HTML personnalisé
     icon: fas fa-key
     target: newtab
-
-
     
-sections:
 - name: logistique
   icon: fas fa-rocket
   items:
