@@ -29,12 +29,12 @@ sections:
     url: /change-password.html  # Chemin vers votre fichier HTML personnalisé
     icon: fas fa-key
     target: newtab
-  - title: Dashy Live
+  - title: fourmis sarthoise
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
+    url: https://www.lesfourmissarthoises.fr/
     target: newtab
     displayData :
-      hideForUsers : [alicia]
+      hideForUsers : [lucas]
   pages:
   - name: Home Lab
     path: home-lab.yml
