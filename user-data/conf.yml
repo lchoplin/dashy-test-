@@ -35,13 +35,13 @@ sections:
     displayData :
       showForUsers : [lucas]
   - title:  cloud
-    icon: si-portainer
+    icon: si-icloud
     url: https://serveur.lesfourmissarthoises.fr/cloud/index.php/login
     target: newtab
     displayData :
       showForUsers : [lucas]
   - title: discussion 
-    icon: si-freenas
+    icon: fa-solid fa-comment-dots
     url: https://discussion.lesfourmissarthoises.fr/home
     target: newtab
     displayData :
