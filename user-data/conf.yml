@@ -37,37 +37,37 @@ sections:
     url: https://www.lesfourmissarthoises.fr/
     target: newtab
     displayData :
-      showForUsers : [lucas]
+      hideForUsers : [bob]
   - title:  cloud
     icon: si-icloud
     url: https://serveur.lesfourmissarthoises.fr/cloud/index.php/login
     target: newtab
     displayData :
-      showForUsers : [lucas]
+      hideForUsers : [bob]
   - title: discussion 
     icon: fas fa-comment-dots
     url: https://discussion.lesfourmissarthoises.fr/home
     target: newtab
     displayData :
-      showForUsers : [lucas]
+      hideForUsers : [bob]
   - title: wiki 
     icon: 📚
     url: https://wiki.lesfourmissarthoises.fr/login
     target: newtab
     displayData :
-      showForUsers : [lucas]
+      hideForUsers : [bob]
   - title: visio conférence 
     icon: 📷
     url: https://visio.ianywhere.fr/rooms/msr-kwg-svo-2sa/join
     target: newtab
     displayData :
-      showForUsers : [lucas]
+      hideForUsers : [bob]
   - title: facebook   
     icon: si-facebook
     url: https://www.facebook.com/Les.Fourmis.Sarthoises
     target: newtab
     displayData :
-      showForUsers : [lucas]
+      hideForUsers : [bob]
   - title: Adhésion Association 
     icon: https://e7.pngegg.com/pngimages/699/360/png-clipart-helloasso-sas-voluntary-association-crowdfunding-ponthafren-association-text-photography.png
     url: https://www.helloasso.com/associations/les-fourmis-sarthoises/adhesions/campagne-d-adhesion-2024  
