@@ -51,13 +51,13 @@ sections:
     displayData :
       showForUsers : [lucas]
   - title: wiki 
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+    icon: 📚
     url: https://wiki.lesfourmissarthoises.fr/login
     target: newtab
     displayData :
       showForUsers : [lucas]
   - title: visio conférence 
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+    icon: 📷
     url: https://visio.ianywhere.fr/rooms/msr-kwg-svo-2sa/join
     target: newtab
     displayData :
